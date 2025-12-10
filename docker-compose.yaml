@@ -1,6 +1,7 @@
 services:
   mongodb:
     image: mongodb:v1 #--name mongodb
+    container_name: mongodb
 
 networks:
   default:
