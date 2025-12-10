@@ -1,6 +1,6 @@
 services:
   mongodb:
-  image: mongodb:v1 #--name mongodb
+    image: mongodb:v1 #--name mongodb
 
 networks:
   default:
