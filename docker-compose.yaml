@@ -1,6 +1,6 @@
 services:
   catalogue:
-  build: 
+    build: 
     context: ./catalogue
     dockerfile: Dockerfile
   image: geethab70/catalogue:v1 #--name mongodb
