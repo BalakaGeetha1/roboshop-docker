@@ -1,11 +1,11 @@
 services:
   catalogue:
     build: 
-    context: ./catalogue
-    dockerfile: Dockerfile
-  image: geethab70/catalogue:v1 #--name mongodb
-  container_name: catalogue
-  depends_on:
+      context: ./catalogue
+      dockerfile: Dockerfile
+    image: geethab70/catalogue:v1 #--name mongodb
+    container_name: catalogue
+    depends_on:
     - mongodb
   mongodb:
     build: ./mongodb
