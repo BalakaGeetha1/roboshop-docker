@@ -1,4 +1,4 @@
-FROM python:3.9 As builder
+FROM python:3.9 AS builder
 WORKDIR /opt/server
 COPY payment.ini *.py requirements.txt .
 RUN pip3 install --prefix=/install -r requirements.txt
